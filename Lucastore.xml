@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<catalog>
+    <section name="Cars">
+        <entry>
+            <name>Fox</name>
+            <model>Sport Line</model>
+            <engine>1.6</engine>
+            <year>2004</year>
+            <price>15.000</price>
+        </entry>
+        <entry>
+            <name>Corolla</name>
+            <model>Special</model>
+            <engine>2.0</engine>
+            <year>2021</year>
+            <price>80.000</price>
+        </entry>
+        <entry>
+            <name>Civic</name>
+            <model>Sport</model>
+            <engine>2.0</engine>
+            <year>2010</year>
+            <price>35.000</price>
+        </entry>       
+    </section>
+    <section name="Motocicle">
+        <entry>
+            <name>Bis</name>
+            <model>Special</model>
+            <engine>125</engine>
+            <year>2018</year>
+            <price>8.000</price>
+        </entry> 
+    </section>
+</catalog>
