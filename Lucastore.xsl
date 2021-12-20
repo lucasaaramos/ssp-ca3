@@ -1,11 +1,14 @@
 <?xml version="1.0"?> 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:template match="/">
-    <table id="menuTable" border="1" class="indent">
+    <table id="catalogTable" border="1" class="indent">
         <thead>
             <tr>
                 <th>Select</th>
-                <th>Item</th>
+                <th>Name</th>
+                <th>Model</th>
+                <th>Engine</th>
+                <th>Year</th>
                 <th>Price</th>
             </tr>
         </thead>
@@ -17,7 +20,7 @@
                     </td>
                 </tr>
                 <xsl:for-each select="entry">
-                    <tr id="{position()}">
+                    <tr>
                         
                         <td align="center">
                             <input name="item0" type="checkbox" />
