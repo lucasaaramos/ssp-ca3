@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/lucasaaramos/ssp-ca3#readme",
   "dependencies": {
-    "expess": "^4.17.1",
+    "expess": "^0.0.1-security",
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
     "path": "^0.12.7",
