@@ -15,7 +15,7 @@ router.use(express.urlencoded({extended: true})); //We allow the data sent from 
 router.use(express.json()); //We include support for JSON
 
 
-router.get('/get/html', function(req, res) {
+router.get('/', function(req, res) {
 
     res.writeHead(200, {'Content-Type' : 'text/html'});
 
