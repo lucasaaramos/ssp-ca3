@@ -10,6 +10,11 @@ const   router = express(),
         server = http.createServer(router);
 
 
+router.use(express.static(path.resolve(__dirname,'views'))); //We serve static content from "views" folder
+router.use(express.urlencoded({extended: true})); //We allow the data sent from the client to be encoded in a URL targeting our end point
+router.use(express.json()); //We include support for JSON
+
+
 router.get('/get/html', function(req, res) {
 
     res.writeHead(200, {'Content-Type' : 'text/html'});
