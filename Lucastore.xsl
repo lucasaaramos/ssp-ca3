@@ -4,7 +4,6 @@
     <table id="catalogTable" border="1" class="indent">
         <thead>
             <tr>
-                <th>Select</th>
                 <th>Name</th>
                 <th>Model</th>
                 <th>Engine</th>
@@ -15,16 +14,12 @@
         <tbody>
             <xsl:for-each select="//section">
                 <tr>
-                    <td colspan="6">
+                    <td colspan="5">
                         <xsl:value-of select="@name" />
                     </td>
                 </tr>
                 <xsl:for-each select="entry">
                     <tr>
-                        
-                        <td align="center">
-                            <input name="item0" type="checkbox" />
-                        </td>
                         <td>
                             <xsl:value-of select="name" />
                         </td>
